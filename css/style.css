@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mr-auto{
+    margin-right: auto;
+}
+
+.cover{
+    width: 95%;
+    height: 100vh;
+    background-image: url("../img/cover.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    background: linear-gradient(to left,#343a40,#dc3545);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    margin-left:10px;
+}
+.nav-link{
+    color:#fff;
+}
+
+.nav-link:hover{
+    color:#dc3545;
+}
