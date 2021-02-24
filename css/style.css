@@ -113,3 +113,34 @@ a {
     box-shadow: -0.0625rem 0 0.625rem 0 #111;
     transition: 0.5s;
 }
+
+/* STYLE BARRE HORIZENTALE */
+
+.barre {
+    position: absolute;
+    width: 5%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.icone {
+    display: inline-block;
+    padding: 1rem;
+    background: #e9ebf0;
+    text-align: center;
+    clip-path: circle(40%);
+    margin-bottom: 5px;
+    color: #fff
+}
+
+.icone:hover {
+    background-color: #17a2b8;
+}
