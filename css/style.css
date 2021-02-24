@@ -144,3 +144,20 @@ a {
 .icone:hover {
     background-color: #17a2b8;
 }
+
+@media screen and (max-width: 768px) {
+    .cover {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .card {
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+
+    .barre {
+        display: none;
+    }
+
+}
